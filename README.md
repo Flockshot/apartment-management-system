@@ -20,9 +20,7 @@ The system is built on a clear hierarchical structure, with each class managing 
 
 ### UML Class Diagram
 
-> **[Image: A UML Class Diagram showing the hierarchy and inheritance structure]**
->
-> *(**Developer Note:** A simple diagram showing `Agency` containing `Building`, `Building` containing `Apartment`, and `Apartment` being inherited by `DailyRentalApartment` and `MonthlyRentalApartment` would be perfect here.)*
+![Image: A UML Class Diagram showing the hierarchy and inheritance structure](.media/UML.svg)
 
 ---
 
@@ -45,10 +43,10 @@ The application runs as a command-line interface (CLI) that allows the user to:
 * **Add New Apartments:** Add new `DailyRentalApartment` or `MonthlyRentalApartment` objects to any building.
 * **List All Properties:** Display all buildings and their corresponding apartments.
 * **Complex Filtering:** List apartments based on specific criteria:
-    * By number of rooms
-    * By size (area in m²)
-    * By rental type (Daily vs. Monthly)
-    * By price (cheaper than a given amount for a specific duration)
+    * By number of rooms
+    * By size (area in m²)
+    * By rental type (Daily vs. Monthly)
+    * By price (cheaper than a given amount for a specific duration)
 * **Polymorphic Price Calculation:** Select any apartment by ID and calculate its exact rental price for a specified number of days, letting the object itself (daily or monthly) determine the correct cost.
 
 ---
