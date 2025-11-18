@@ -45,10 +45,10 @@ The application runs as a command-line interface (CLI) that allows the user to:
 * **Add New Apartments:** Add new `DailyRentalApartment` or `MonthlyRentalApartment` objects to any building.
 * **List All Properties:** Display all buildings and their corresponding apartments.
 * **Complex Filtering:** List apartments based on specific criteria:
-    * By number of rooms
-    * By size (area in m²)
-    * By rental type (Daily vs. Monthly)
-    * By price (cheaper than a given amount for a specific duration)
+    * By number of rooms
+    * By size (area in m²)
+    * By rental type (Daily vs. Monthly)
+    * By price (cheaper than a given amount for a specific duration)
 * **Polymorphic Price Calculation:** Select any apartment by ID and calculate its exact rental price for a specified number of days, letting the object itself (daily or monthly) determine the correct cost.
 
 ---
@@ -75,7 +75,9 @@ Execute the compiled program from your terminal:
 
 ## ⌨️ Example Usage (CLI)
 
-[cite_start]The following is a sample run, demonstrating the system's functionality (based on the project specification appendix [cite: 310-374]).
+The following is a sample run, demonstrating the system's functionality (based on the project specification appendix).
+
+
 
 ```bash
 !!!Welcome to Agency Management System!!!
@@ -136,7 +138,7 @@ Furnished (Yes(1) / No (0)): 1
 Apartment successfully added!
 ---------------------------------------------
 Your selection: 4
-In Building: 
+In Building: 
 ID: 0, Address: Academia Apartments, 17 Warwick Rd, Old Trafford, Manchester M16 10XY
 Daily Rental Apartments:
 Room No:1, Number of Rooms:3, Rent:86 GBP, Size:100 Decoration Style: Classic
