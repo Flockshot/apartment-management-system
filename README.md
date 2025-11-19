@@ -20,7 +20,7 @@ The system is built on a clear hierarchical structure, with each class managing 
 
 ### UML Class Diagram
 
-![Image: A UML Class Diagram showing the hierarchy and inheritance structure](.media/UML.svg)
+![Image: A UML Class Diagram showing the hierarchy and inheritance structure](.media/UML.png)
 
 ---
 
